@@ -1,0 +1,11 @@
+val = int(input("Enter the value : "))
+temp = input("Please Enter temperature in  C or F ").capitalize()
+print("You want to convert this temperature", val,temp)
+if temp=="C":
+    y = float((int(val)*1.8+32))
+    print("Your converted  temperature is",y,"F")
+elif temp=="F":
+    x = (float(int(val)*(5/9)-32))
+    print("Your converted temperature is ",x,"C")
+else:
+    print("Please Check your temperature")
